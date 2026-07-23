@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Fibonacci {
 	
-	public static void printFibonacciwithIteration(int n) {
+	public static void printFibonacciWithIteration(int n) {
 		System.out.println("Fibonacci Numbers using iteration");
 		int a=0,b=1;
 		System.out.print(a + " "+ b + " ");
@@ -14,7 +14,7 @@ public class Fibonacci {
 			a = b;
 			b = next;
 		}
-	}
+	} 
 	public static int fibonacciWithRecur(int n) {
 	    if (n <= 1) {
 	    	return n;
@@ -26,7 +26,7 @@ public class Fibonacci {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter value of n : ");
 		int n = sc.nextInt();
-		printFibonacciwithIteration(n);
+		printFibonacciWithIteration(n);
 		System.out.println();
 	    System.out.println("Fibonacci Numbers using recursion");
 
