@@ -1,7 +1,6 @@
 package oop;
 
 abstract class Shape {
-
     abstract double calculateArea();
 }
 
