@@ -24,7 +24,7 @@ public class Factorial {
 		calculateFactorialWithIteration(n);
 		long ans  = calculateFactorialWithRecursion(n);
 		System.out.println("Factorial of n using recursion is : " + ans);
-		
+		sc.close();
 	}
 
 }
