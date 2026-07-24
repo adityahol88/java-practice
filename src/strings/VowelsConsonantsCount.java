@@ -23,7 +23,7 @@ public class VowelsConsonantsCount {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter string: ");
 		String s = sc.nextLine();
-		int[] counts=vowelsConsonantsCount(s);
+		int[] counts = vowelsConsonantsCount(s);
 		System.out.println("Vowels: " + counts[0]);
 
 		System.out.println("Consonants: " + counts[1]);
