@@ -39,5 +39,6 @@ public class BubbleSort {
             arr[i] = sc.nextInt();
         }
         bubbleSort(arr);
+        sc.close();
 	}
 }
