@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class FrequencyCount {
 	
-	
 	public static void frequencyCount(ArrayList<Integer> list) {
 		HashSet<Integer> done=new HashSet<>();
 		for (int i = 0; i < list.size(); i++) {
