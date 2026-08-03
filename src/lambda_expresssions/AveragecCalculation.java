@@ -28,5 +28,6 @@ public class AveragecCalculation {
 		};
 		
 		System.out.println("Average of given numbers is " + averageCalculator.apply(list));
+	sc.close();
 	}
 }

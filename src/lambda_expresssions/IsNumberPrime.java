@@ -31,7 +31,7 @@ public class IsNumberPrime {
 			System.out.println("Given number is not a Prime Number ");
 				
 		}
-
+		sc.close();
 		
 	}
 }
