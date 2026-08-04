@@ -1,9 +1,15 @@
+/**
+ * Problem: Read an integer array and a target value, then find the target's
+ * first index using linear search.
+ */
 package algorithms;
 
 import java.util.Scanner;
 
+/** Demonstrates sequential searching through an integer array. */
 public class LinearSearch {
 
+    /** Returns the first index containing {@code target}, or {@code -1} if absent. */
     public static int linearSearch(int[] arr, int target) {
 
         for (int i = 0; i < arr.length; i++) {
@@ -14,6 +20,7 @@ public class LinearSearch {
         return -1;
     }
 
+    /** Reads an array and target from standard input and reports the search result. */
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

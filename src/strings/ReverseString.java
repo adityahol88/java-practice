@@ -1,8 +1,13 @@
+/**
+ * Problem: Read a string and print the characters in reverse order.
+ */
 package strings;
 import java.util.Scanner;
 
+/** Demonstrates reversing a string with a {@link StringBuilder}. */
 public class ReverseString {
 	
+	/** Returns the characters of {@code s} in reverse order. */
 	static String reverseString(String s) {
 
 	    StringBuilder reversed = new StringBuilder(s.length());
@@ -12,6 +17,7 @@ public class ReverseString {
 	    return reversed.toString();
 
 	}
+	/** Reads a string and prints its reversed form. */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter string to reverse: ");

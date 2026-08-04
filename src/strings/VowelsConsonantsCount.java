@@ -1,9 +1,15 @@
+/**
+ * Problem: Read a string and count its alphabetic vowels and consonants,
+ * ignoring non-letter characters.
+ */
 package strings;
 
 import java.util.Scanner;
 
+/** Counts vowels and consonants in a string. */
 public class VowelsConsonantsCount {
 	
+	/** Returns an array containing the vowel count followed by consonant count. */
 	static int[] vowelsConsonantsCount(String s) {
 	int vowels = 0;
 	int consonants = 0;
@@ -19,6 +25,7 @@ public class VowelsConsonantsCount {
 	}
 	return new int[]{vowels,consonants};
 }
+	/** Reads a string and prints its vowel and consonant counts. */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter string: ");

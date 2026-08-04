@@ -1,10 +1,17 @@
+/**
+ * Problem: Read an integer array, sort it in ascending order using bubble sort,
+ * and display the sorted array.
+ */
 package algorithms;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
+
+/** Demonstrates the bubble-sort algorithm on user-provided integers. */
 public class BubbleSort {
 	
+	/** Sorts the supplied array in ascending order and prints the result. */
 	static void bubbleSort(int []arr) {
 		for(int i=0; i<arr.length-1; i++) {
 			
@@ -25,6 +32,7 @@ public class BubbleSort {
 		System.out.println(Arrays.toString(arr));
 	}
 	
+	/** Reads an array from standard input and invokes {@link #bubbleSort(int[])}. */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 

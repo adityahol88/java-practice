@@ -1,9 +1,16 @@
+/**
+ * Problem: Read two sets of integers and display their mathematical union,
+ * containing each value only once.
+ */
 package collections;
 
 import java.util.HashSet;
 import java.util.Scanner;
 
+
+/** Demonstrates set-union operations with {@link HashSet}. */
 public class UnionOfHashSets {
+	/** Reads two sets and displays their union. */
 	public static void main(String[] args) {
 
 		

@@ -1,11 +1,17 @@
+/**
+ * Problem: Read two integers and calculate their sum with a
+ * {@link java.util.function.BiFunction} lambda expression.
+ */
 package lambda_expressions;
 
 import java.util.Scanner;
 import java.util.function.BiFunction;
 
 
+/** Demonstrates addition with a binary lambda function. */
 public class SumOfTwoIntegrs {
 
+	/** Reads two integers, applies the sum function, and prints the result. */
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);

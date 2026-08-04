@@ -1,11 +1,17 @@
+/**
+ * Problem: Provide a console menu for depositing, withdrawing, transferring,
+ * viewing balances, and displaying all accounts in a sample bank.
+ */
 package banking_system_v1;
 
 import java.util.Scanner;
 
+/** Provides the console user interface for the banking example. */
 public class Main {
 	
 	
 	
+	/** Reads transaction details and deposits money into an account. */
 	public static void deposit(Bank bank,Scanner sc) {
 		System.out.println("Enter Account Number and ammount to deposit: ");
 		int number = sc.nextInt();
@@ -19,6 +25,7 @@ public class Main {
 			System.out.println(e.getMessage());
 		}
 	}
+	/** Reads transaction details and withdraws money from an account. */
 	public static void withdraw(Bank bank,Scanner sc) {
 		System.out.println("Enter Account Number and ammount to withdraw: ");
 		int number = sc.nextInt();
@@ -33,6 +40,7 @@ public class Main {
 			System.out.println(e.getMessage());
 		}
 	}
+	/** Reads account numbers and transfers money between accounts. */
 	public static void transferMoney(Bank bank,Scanner sc) {
 		System.out.println("Enter sender account number ");
 		int senderNumber = sc.nextInt();
@@ -50,6 +58,7 @@ public class Main {
 				System.out.println(e.getMessage());
 			}
 	}
+	/** Reads an account number and prints its balance. */
 	public static void checkBalance(Bank bank,Scanner sc) {
 		System.out.println("Enter account number ");
 		int accountNumber = sc.nextInt();
@@ -63,6 +72,7 @@ public class Main {
 		}
 	}
 		
+	/** Runs the banking menu until the user selects exit. */
 	public static void main(String[] args) {
 			Bank bank = new Bank();
 			Scanner sc = new Scanner(System.in);

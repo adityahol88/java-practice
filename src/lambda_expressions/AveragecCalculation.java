@@ -1,3 +1,7 @@
+/**
+ * Problem: Read a list of decimal numbers and calculate its average using a
+ * {@link java.util.function.Function} lambda expression.
+ */
 package lambda_expressions;
 
 import java.util.ArrayList;
@@ -6,8 +10,10 @@ import java.util.Scanner;
 import java.util.function.Function;
 
 
+/** Demonstrates calculating an average with a lambda expression. */
 public class AveragecCalculation {
 
+	/** Reads decimal values, applies the average function, and prints the result. */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		List<Double> list=new ArrayList<>();
